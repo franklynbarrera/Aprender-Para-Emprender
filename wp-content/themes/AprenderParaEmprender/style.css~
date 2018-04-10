@@ -1,0 +1,76 @@
+/*
+Theme Name: Aprender Para Emprender
+Theme URI: http://www.apeacademy.com
+Author: Franklyn Barrera
+Author URI: http://www.frankynbarrera.com.ve
+Description: CityLogic's modest but eye-catching design makes it a great choice for creating any website from travel to business to food, decor, lifestyle, sport and more. The ability to have a transparent header allows the use of bold homepage imagery by displaying either a static header image or slider - with the choice of using the built-in slider or any 3rd party slider plugin of your choice. CityLogic integrates seamlessly with a number of popular FREE plugins such as WooCommerce, Contact Form 7 and Recent Posts Widget Extended. It also works great with SiteOrigin's Page Builder plugin making it quick and easy to create professional looking pages without any coding knowledge. You're always one step ahead with CityLogic!
+Version: 1.0
+Template: citylogic
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: citylogic
+Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, blog, e-commerce, entertainment
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+CityLogic is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Reset
+2.0 Typography
+3.0 Elements
+4.0 Forms
+5.0 Navigation
+	5.1 Links
+	5.2 Menus
+6.0 Accessibility
+7.0 Alignments
+8.0 Clearings
+	8.1 CityLogic Univeral Styling
+	8.2 CityLogic Content Layout Styling
+	8.3 CityLogic Theme Styling
+9.0 Widgets
+10.0 Content
+	10.1 Posts and pages
+	10.2 Asides
+	10.3 Comments
+11.0 Infinite scroll
+12.0 Media
+	12.1 Captions
+	12.2 Galleries
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Reset
+--------------------------------------------------------------*/
+
+
+
+
+
+@import url("../citylogic/style.css");
+
+.branding{
+	
+	text-shadow: 0 0 0.2em #40111e, 0 0 0.2em #40111e,
+		0 0 0.2em #40111e
+	
+	
+	
+}
+
+.description{
+		text-shadow: 0 0 0.2em #40111e, 0 0 0.2em #40111e,
+		0 0 0.2em #40111e
+	
+
+}
