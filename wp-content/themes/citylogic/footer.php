@@ -15,12 +15,20 @@
 	
 	<div class="site-footer-widgets">
         <div class="site-container" align='center'>
+		<?php if (is_home()): ?>
 			<a href="https://www.facebook.com/ApeAcademyOnline/"><img src="wp-content/uploads/2018/04/facebook.png" alt=""></a>
 			<a href="https://www.instagram.com/apeacademyonline/"><img src="wp-content/uploads/2018/04/instagram1.png" alt=""></a>
-			<a href=""><img src="wp-content/uploads/2018/04/twitter.png" alt=""></a>
+			<a href="https://twitter.com/EmprendeConApe"><img src="wp-content/uploads/2018/04/twitter.png" alt=""></a>
 			<a href="mailto:apeacademyonline@outlook.com"><img src="wp-content/uploads/2018/04/correo1.png" alt=""></a>
+<?php else: ?>
+			<a href="https://www.facebook.com/ApeAcademyOnline/"><img src="../../wp-content/uploads/2018/04/facebook.png" alt=""></a>
+			<a href="https://www.instagram.com/apeacademyonline/"><img src="../../wp-content/uploads/2018/04/instagram1.png" alt=""></a>
+			<a href="https://twitter.com/EmprendeConApe"><img src="../../wp-content/uploads/2018/04/twitter.png" alt=""></a>
+			<a href="mailto:apeacademyonline@outlook.com"><img src="../../wp-content/uploads/2018/04/correo1.png" alt=""></a>
 
 		
+<?php endif; ?>
+
 			
        
 	       <?php if ( is_active_sidebar( 'footer' ) ) : ?>

@@ -1,9 +1,17 @@
 <ul class="social-links">
-
+<?php if (is_home()): ?>
 			<li><a href="https://www.facebook.com/ApeAcademyOnline/"><img src="wp-content/uploads/2018/04/facebook.png" alt=""></a></li>
 			<li><a href="https://www.instagram.com/apeacademyonline/"><img src="wp-content/uploads/2018/04/instagram1.png" alt=""></a></li>
-			<li><a href=""><img src="wp-content/uploads/2018/04/twitter.png" alt=""></a></li>
+			<li><a href="https://twitter.com/EmprendeConApe"><img src="wp-content/uploads/2018/04/twitter.png" alt=""></a></li>
 			<li><a href="mailto:apeacademyonline@outlook.com"><img src="wp-content/uploads/2018/04/correo1.png" alt=""></a></li>
+<?php else: ?>
+
+			<li><a href="https://www.facebook.com/ApeAcademyOnline/"><img src="../../wp-content/uploads/2018/04/facebook.png" alt=""></a></li>
+			<li><a href="https://www.instagram.com/apeacademyonline/"><img src="../../wp-content/uploads/2018/04/instagram1.png" alt=""></a></li>
+			<li><a href="https://twitter.com/EmprendeConApe"><img src="../../wp-content/uploads/2018/04/twitter.png" alt=""></a></li>
+			<li><a href="mailto:apeacademyonline@outlook.com"><img src="../../wp-content/uploads/2018/04/correo1.png" alt=""></a></li>
+
+<?php endif; ?>
 
 <?php
 

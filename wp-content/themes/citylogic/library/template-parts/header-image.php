@@ -18,6 +18,7 @@ if ( is_random_header_image() && $header_url = get_header_image() ) {
 
 } elseif ( $data = get_custom_header() ) {
 	// For static headers
+
 	if ( ! empty( $data->attachment_id ) ) {
 		$attachment_id = $data->attachment_id;
 	}
@@ -41,7 +42,7 @@ $overlay_text = trim( get_theme_mod( 'citylogic-header-image-text', customizer_l
 		if ( !empty( $overlay_text ) ) {
 		?>
 		<div class="overlay-container">
-		
+
 			<div class="overlay">
 				<div class="opacity <?php echo implode( ' ', $opacity_classes ); ?>">
 					<?php 

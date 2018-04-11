@@ -64,7 +64,8 @@ if ( $is_logo_container_transparent ) {
 
 <header id="masthead" class="site-header left-aligned <?php echo esc_attr( $show_slider || $show_header_image ? 'has-header-media' : '' ); ?> <?php echo ( $show_slider && $slider_type == 'default' ) || $show_header_image ? 'forced-solid' : ''; ?> <?php echo implode( ' ', $header_classes ); ?>" role="banner">
     
-    <?php
+	<?php
+	
     // If the Navigation Menu alignment is set to inline then load the inline header include
     if ( get_theme_mod( 'citylogic-navigation-menu-alignment', customizer_library_get_default( 'citylogic-navigation-menu-alignment' ) ) == 'inline' ) {
 		get_template_part( 'library/template-parts/header', 'inline' );
@@ -80,9 +81,12 @@ if ( $is_logo_container_transparent ) {
 </script>
     
 <?php
+
 if ( $show_slider ) :
+
 	get_template_part( 'library/template-parts/slider' );
 elseif ( $show_header_image ) :
+
 	get_template_part( 'library/template-parts/header-image' );
 endif;
 

@@ -60,6 +60,81 @@ and Blueprint http://www.blueprintcss.org/
 @import url("../citylogic/style.css");
 
 
+.Servicios {
+    float: right;
+    position: relative;
+    width: 25%;
+}
+.Servicios figure {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.nom-serv {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+.nom-serv h2 strong {
+    display: block;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 1366px){
+.nom-serv h2 {
+    font-size: 1.2em;
+}}
+@media screen and (max-width: 1680px){
+.nom-serv h2 {
+    font-size: 1.8em;
+}}
+.nom-serv h2 {
+    font-size: 2em;
+    font-weight: 300;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.nom-serv {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
 .site-footer-widgets {
     padding: 8px 0 8px; /*Estaba en 50 0 50*/
        font-size: 14px;
@@ -117,3 +192,26 @@ background-color: #a7111b!important;
 	
 
 }
+
+
+
+
+
+
+
+@media screen and (max-width:1680px){
+	
+	.nom-serv h2{font-size:1.8em}
+	
+	}
+	@media screen and (max-width:1440px){
+	figure.logo img{width:170px}
+	.C-Exito figure{margin:3em 0}
+
+	}
+	@media screen and (max-width:1366px){
+	
+	figure.logo img{width:150px}
+	.nom-serv h2{font-size:1.2em}
+	.Servicio{width:35%}
+	}
