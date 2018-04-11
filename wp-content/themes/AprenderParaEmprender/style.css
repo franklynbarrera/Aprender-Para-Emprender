@@ -60,6 +60,11 @@ and Blueprint http://www.blueprintcss.org/
 @import url("../citylogic/style.css");
 
 
+.site-footer-widgets {
+    padding: 8px 0 8px; /*Estaba en 50 0 50*/
+       font-size: 14px;
+}
+
 #wpadminbar .ab-empty-item, #wpadminbar a.ab-item, #wpadminbar>#wp-toolbar span.ab-label, #wpadminbar>#wp-toolbar span.noticon {
     color: white;
 }

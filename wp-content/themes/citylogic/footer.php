@@ -14,10 +14,16 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
 	
 	<div class="site-footer-widgets">
-        <div class="site-container">
-            
+        <div class="site-container" align='center'>
+			<a href="https://www.facebook.com/ApeAcademyOnline/"><img src="wp-content/uploads/2018/04/facebook.png" alt=""></a>
+			<a href="https://www.instagram.com/apeacademyonline/"><img src="wp-content/uploads/2018/04/instagram1.png" alt=""></a>
+			<a href=""><img src="wp-content/uploads/2018/04/twitter.png" alt=""></a>
+			<a href="mailto:apeacademyonline@outlook.com"><img src="wp-content/uploads/2018/04/correo1.png" alt=""></a>
 
-            <?php if ( is_active_sidebar( 'footer' ) ) : ?>
+		
+			
+       
+	       <?php if ( is_active_sidebar( 'footer' ) ) : ?>
             <div class="widgets-container">
                 <?php dynamic_sidebar( 'footer' ); ?>
             </div>
@@ -31,7 +37,8 @@
 	
 		<div class="site-container">
 			
-			<div class="site-footer-bottom-bar-center"  align='center'>
+			<div class="site-footer-bottom-bar-center"  align='center' style='text-shadow: 0 0 0.2em #40111e, 0 0 0.2em #40111e,
+		0 0 0.2em #40111e'>
 
             <?php echo "Aprender Para Emprender 2018 ©"?>
 

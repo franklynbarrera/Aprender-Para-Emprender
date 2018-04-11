@@ -1,5 +1,18 @@
 <ul class="social-links">
+
+			<li><a href="https://www.facebook.com/ApeAcademyOnline/"><img src="wp-content/uploads/2018/04/facebook.png" alt=""></a></li>
+			<li><a href="https://www.instagram.com/apeacademyonline/"><img src="wp-content/uploads/2018/04/instagram1.png" alt=""></a></li>
+			<li><a href=""><img src="wp-content/uploads/2018/04/twitter.png" alt=""></a></li>
+			<li><a href="mailto:apeacademyonline@outlook.com"><img src="wp-content/uploads/2018/04/correo1.png" alt=""></a></li>
+
 <?php
+
+
+
+
+		
+			
+
 if( get_theme_mod( 'citylogic-social-email', customizer_library_get_default( 'citylogic-social-email' ) ) != '' ) :
     echo '<li><a href="' . esc_url( 'mailto:' . antispambot( get_theme_mod( 'citylogic-social-email' ), 1 ) ) . '" title="';
 	echo __( 'Send us an email', 'citylogic' );
