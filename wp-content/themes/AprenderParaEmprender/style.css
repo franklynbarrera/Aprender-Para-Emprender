@@ -60,6 +60,24 @@ and Blueprint http://www.blueprintcss.org/
 @import url("../citylogic/style.css");
 
 
+.div_perfil{
+
+
+    margin: 20px;
+    padding: 63px;
+    border: solid 1px #a72b1c;
+    border-radius: 1%;
+    text-align: left;
+
+}
+
+.perfill{
+
+display: inline-block;
+
+
+}
+
 .Servicios {
     float: right;
     position: relative;
