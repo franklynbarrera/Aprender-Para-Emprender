@@ -6,7 +6,7 @@ if (is_user_logged_in()){
 				echo '<div class="div_perfil" align="center">';
 			    echo '<h6 class="perfill">ID:</h6> '                . $cu->ID             . '<br />';
     			echo '<h6 class="perfill">Nombre de usuario:  </h6> ' . $cu->user_login     . '<br />';
-    	/*		echo '<h6 class="perfill">Nombre: </h6>'            . $cu->user_firstname . '<br />';
+    	/*  d		echo '<h6 class="perfill">Nombre: </h6>'            . $cu->user_firstname . '<br />';
     			echo '<h6 class="perfill">Apellidos:</h6>  '         . $cu->user_lastname  . '<br />';
     			echo '<h6 class="perfill">Nombre publico: </h6> '    . $cu->display_name   . '<br />';*/
     			echo '<h6 class="perfill">Email:</h6>  '             . $cu->user_email     . '<br />';
