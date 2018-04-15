@@ -1,7 +1,0 @@
-
-function codigoPHP ($atts){ 
-include (TEMPLATEPATH .”/codigos_propios/perfill.php”); 
-}
-add_shortcode (‘perfilphp’, ‘codigoPHP’);
-
-
